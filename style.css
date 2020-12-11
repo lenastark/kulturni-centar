@@ -1,0 +1,388 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+/* animacije*/
+@keyframes loadAnimacija{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
+@keyframes navAnimacija{
+    from{
+        margin-top:-100px;
+    }
+    to{
+        margin-top:0px;
+    }
+    /* 0%{
+        margin-top:-100px;
+    }
+    50%{
+        margin-top:-50px
+    }
+    100%{
+        margin-top:0px;
+    } */
+}
+body{
+    animation:loadAnimacija 2s;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    font-size:2.7em;
+    font-family: 'Fjord One', serif;
+}
+h3{
+    font-size: 1.5em;
+    font-family: 'Fjord One', serif;
+}
+p,li,label{
+    line-height: 1.4;
+    font-family: 'Tenor Sans', sans-serif;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background-image: url('img/pocetna5.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    height:700px;
+   
+}
+nav{
+    margin:0px auto;
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    /* background-color:#1F4788; */
+    padding:0px 20px;
+    animation:navAnimacija 1s;
+    
+}
+
+nav #logo{
+    font-size:2em;
+    padding:10px;
+}
+nav #meni #meniLinkovi{
+    display: flex;
+    list-style-type: none;
+}
+nav #meni #meniLinkovi li{
+    padding:20px 10px;
+    font-size:1.1em;
+
+}
+nav #meni #meniLinkovi a{
+    border-radius: 2px;
+    transition: .3s;
+    /*  : */
+}
+nav #meni #meniLinkovi a:hover{
+    background-color:#333;
+}
+#naslov{
+    /* width:1400px;
+    margin:0px auto; */
+    margin-top:200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#naslov h1{
+    font-size:3.5em;
+
+}
+#naslov p{
+    font-size:1.1em;
+    width:700px;
+    margin:0px auto;
+    padding-top:20px;
+ 
+}
+main #onama{
+    margin:100px 0px;
+    display: flex;
+    justify-content: center;
+}
+main #onama .tekst{
+    width:800px;
+    padding-right: 100px;
+}
+main #onama .tekst p,#najnovijaDesavanja .desavanje .tekst p{
+    width:80%;
+    /* margin:0px auto; */
+    padding-top:50px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+#najnovijaDesavanja .desavanje{
+    display: flex;
+    margin:100px auto;
+    justify-content: center;
+}
+#najnovijaDesavanja .desavanje .tekst{
+    width:800px;
+    padding-right: 100px;
+}
+#najnovijaDesavanja .desavanje .tekst a{
+    border:1px solid #333;
+    padding:10px 20px;
+    text-decoration: none;
+    border-radius: 2px;
+    color:#333;
+    transition:.3s;
+}
+#najnovijaDesavanja .desavanje .tekst a:hover{
+    color:#fff;
+    background-color: #333;
+}
+.drugiBlok{
+    padding-right: 0px!important;
+    padding-left: 100px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.drugiBlok h2{
+    width:80%;
+    margin:0px 0px 0px auto;
+}
+.drugiBlok p{
+    margin:0px 0px 0px auto;
+}
+.drugiBlok a{
+    margin-left: 160px;
+}
+ main #scrollImg{
+    height:400px;
+    background-image: url('img/pocetna4.jpg');
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+}
+main #scrollImg .ikona{
+    margin-top:100px;
+    width:350px;
+    padding:20px;
+    
+}
+main #scrollImg .ikona i{
+    font-size:3.5em;
+    margin-bottom: 20px;
+}
+main #scrollImg .ikona p{
+    width:250px;
+    margin:0px auto;
+}
+/* main #scrollImg a{
+    text-align: center;
+    padding:10px 20px;
+    background-color: #fff;
+    color:#333;
+    border-radius: 2px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+  
+    
+}  */
+
+footer{
+  
+    background-color: #222;
+    color:#fff;
+}
+footer #kontaktFooter{
+    margin:0px auto;
+    padding:10px 0px;
+    text-align: center;
+}
+footer #kontaktFooter i{
+    margin:0px 5px;
+    padding:10px;
+    font-size:1.5em;
+    transition: .3s;
+    border-radius: 2px;
+}
+footer #kontaktFooter i:hover{
+    background-color: #fff;
+    color:#333;
+}
+footer #email{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0px auto;
+    text-align: center;
+    padding:30px 0px;
+}
+footer #email p{
+    width:200px;
+    text-align: center;
+    margin:30px auto;
+}
+footer #email #emailInput{
+    width:200px;
+    padding:5px 0px;
+
+}
+#ikoneFooter{
+    display: flex;
+    justify-content: center;
+
+}
+#ikoneFooter i{
+    margin:10px 10px;
+    color:#fff;
+    font-size:1.2em;
+    padding:5px;
+    transition: .3s;
+    border-radius: 2px;
+}
+#ikoneFooter i:hover{
+    background-color: #fff;
+    color:#333;
+}
+footer small{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color: #000;
+}
+
+/* galerija */
+
+#slike{
+    margin:100px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.slika{
+    position: relative;;
+    transition: .3s;
+    padding:5px;
+}
+#slike .slika img{
+    
+
+    opacity:1;
+}
+#slike .slika .prelaz{
+    position: absolute;
+    background-color: #000;
+    height:97%;
+    width:98%; 
+    top:3px; 
+    opacity:0;
+    transition: .3s;
+    color:#fff;
+
+}
+#slike .slika .prelaz p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.slika:hover .prelaz{
+    opacity:.7!important ;
+
+}
+
+#kontakt,#autor{
+    margin:100px 0px;
+    display:flex;
+    justify-content: space-around;
+}
+iframe{
+    height:800px;
+    width:500px;
+}
+#kontakt .info{
+    width: 600px;
+}
+#kontakt .info h2{
+    margin-bottom: 30px;
+    margin-top:50px;
+}
+#kontakt .info p{
+    width: 75%;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+#kontakt .info form{
+    margin-bottom: 50px;
+}
+#kontakt .info .inputForma{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width:75%;
+
+}
+
+#kontakt .info form input[type="submit"]{
+    padding:10px 20px;
+    background-color: transparent;
+    border:1px solid rgba(0,0,0,0.0);
+    background-color:#19B5FE;
+    color:#fff;
+    margin-top:5px;
+    border-radius: 2px;
+    width:75%;
+}
+#kontakt .info form input[type="submit"]:hover{
+    border:1px solid #333;
+}
+#kontakt .info .inputForma input{
+    border-radius: 2px;
+    border:1px solid #333;
+    height:28px;
+}
+#kontakt .info .inputForma label{
+    text-transform: uppercase;
+    font-size:.9em; 
+    margin-bottom: 5px;
+}
+textarea{
+    resize:none;
+    height:150px;
+}
+
+#autor .infoAutor h2{
+    margin-bottom:20px;
+}
+#autor .infoAutor p{
+    width:550px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size:1.05em;
+}
+#autor .infoAutor ul li{
+    padding:5px 0px;
+}
