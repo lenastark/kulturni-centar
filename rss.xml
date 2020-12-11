@@ -1,0 +1,17 @@
+<rss version="2.0">
+    <channel>
+        <title>Premijera</title>
+        <link>https://lenastark.github.io/kulturni-centar/desavanja.html</link>
+        <description>premijera pozorisne predstave</description>
+        <item>
+            <title>Mama Mia</title>
+            <link>https://lenastark.github.io/kulturni-centar/desavanja.html</link>
+            <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptatibus?</description>
+        </item>
+        <item>
+            <title>Macak u cizmama</title>
+            <link>https://lenastark.github.io/kulturni-centar/desavanja.html</link>
+            <description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, similique.</description>
+        </item>
+    </channel>
+</rss>
