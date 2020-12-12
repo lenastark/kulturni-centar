@@ -1,17 +1,17 @@
 <rss version="2.0">
     <channel>
-        <title>Premijera</title>
+        <title>Premijera filma 'Devojka koja obećava'</title>
         <link>https://lenastark.github.io/kulturni-centar/desavanja.html</link>
-        <description>premijera pozorisne predstave</description>
+        <description>Premijera filma o Kesi, Devojci koja obećava, ponovo je pomeren, te će biti održan početkom sledeće godine.</description>
         <item>
-            <title>Mama Mia</title>
+            <title>Pop-rok grupa Zest ekskluzivno u Atikusu</title>
             <link>https://lenastark.github.io/kulturni-centar/desavanja.html</link>
-            <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptatibus?</description>
+            <description>Popularna grupa Zest nastupa u Atikusu.</description>
         </item>
         <item>
-            <title>Macak u cizmama</title>
+            <title>Premijera filma 'Sonik'</title>
             <link>https://lenastark.github.io/kulturni-centar/desavanja.html</link>
-            <description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, similique.</description>
+            <description>Premijera dugoočekivanog filma o dobro poznatom Soniku, super-brzom junaku iz istoimene igrice održaće se 12. februara.</description>
         </item>
     </channel>
 </rss>
