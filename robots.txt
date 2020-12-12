@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /adminRobot/
+Sitemap: https://lenastark.github.io/kulturni-centar/sitemap.xml
